@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.Driver;
 
 public class ApiDemosScreen {
-    ApiDemosScreen(){
+    public ApiDemosScreen(){
         PageFactory.initElements(new AppiumFieldDecorator(Driver.getAppiumDriver()),this);
     }
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='API Demos']")

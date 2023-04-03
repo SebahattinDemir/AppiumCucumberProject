@@ -75,38 +75,4 @@ public class ApiDemosSteps extends ReusableMethods {
     public void kullanciOkButonunaTikladi() {
         tapOn(screens.preferenceDependenciesScreen().okButton);
     }
-    //@Given("App yuklensin")
-    //    public void app_yuklensin() {
-    //        Driver.getAppiumDriver();
-    //    }
-    //
-    //    @And("kullanici ana ekranda")
-    //    public void kullaniciAnaEkranda() {
-    //        Assert.assertTrue(isElementPresent(screens.mainScreen().mainScreenTitle));
-    //    }
-    //
-    //    @And("kullanici API Demos butununa tikladi")
-    //    public void kullaniciAPIDemosButununaTikladi() {
-    //        tapOn(screens.mainScreen().apiDemosButton);
-    //    }
-    //
-    //    @Then("kullanici API Demos ekraninda")
-    //    public void kullaniciAPIDemosEkraninda() {
-    //        Assert.assertTrue(isElementPresent(screens.apiDemosScreen().apiDemosTitle));
-    //    }
-    //
-    //    @And("kullanici Preference butununa tikladi")
-    //    public void kullaniciPreferenceButununaTikladi() {
-    //        tapOn(screens.apiDemosScreen().preference);
-    //    }
-    //
-    //    @Then("kullanici Preference ekraninda")
-    //    public void kullaniciPreferenceEkraninda() {
-    //        Assert.assertTrue(isElementPresent(screens.preferenceScreen().preferenceScreenTitle));
-    //    }
-    //
-    //    @And("kullanici Preference dependencies tikladi")
-    //    public void kullaniciPreferenceDependenciesTikladi() {
-    //        tapOn(screens.preferenceScreen().preferenceDependencies);
-    //    }
 }

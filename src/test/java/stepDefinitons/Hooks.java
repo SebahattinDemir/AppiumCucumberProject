@@ -42,4 +42,13 @@ public class Hooks {
             e.printStackTrace();
         }
     }
+    //    public void forceStopAppiumServer() {
+    //        try {
+    //            runtime.exec("killall node");
+    //            runtime.exec("pkill  -i xcodebuild");
+    //            System.out.println("Kill all nodes");
+    //        } catch (IOException e) {
+    //            e.printStackTrace();
+    //        }
+    //    }
 }

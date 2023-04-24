@@ -19,6 +19,14 @@ public class MainScreen {
     @AndroidFindBy(xpath = "(//android.widget.TextView[@text='API Demos'])")
     public MobileElement apiDemosButton;
 
-
+// public MainScreen() {
+//        PageFactory.initElements(new AppiumFieldDecorator(Driver.getAppiumDriver(), Duration.ofSeconds(30)), this);
+//    }
+//
+//    @AndroidFindBy(xpath = "(//android.widgetImageView)[1]")
+//    public MobileElement mainScreenTitle;
+//
+//    @AndroidFindBy(xpath = "(//android.widget.TextView[@text='API Demos'])")
+//    public MobileElement apiDemosButton;
 }
 
